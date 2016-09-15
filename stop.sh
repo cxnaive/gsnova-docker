@@ -7,7 +7,7 @@ if [ "" !=  "$PID" ]; then
 fi
 echo "Kcptun stoped."
 echo "Stopping gsnova..."
-PID=`ps -ef | grep gsnova_vps_linux_386 | grep -v grep | awk '{print $2}'`
+PID=`ps -ef | grep gsnova_vps_linux_amd64 | grep -v grep | awk '{print $2}'`
 if [ "" !=  "$PID" ]; then
   echo "killing $PID"
   kill -9 $PID
