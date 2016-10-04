@@ -10,6 +10,6 @@
 	"AdminListen": "127.0.0.1:60000",
 	//user name auth
 	"Auth":["*", "gsnova"],
-	"Encrypt":{"Key":"809240d3a021449f6e67dd73221ddfdf942a308a"},
+	"Encrypt":{"Key":"809240d3a021449f6e67aa73221d42df942a308a"},
 	"Log": ["stdout", "server.log"]
 }
