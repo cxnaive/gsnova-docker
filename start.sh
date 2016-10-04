@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /root/kcptun/
-cd /vps/
+cd /root/kcptun/vps/
 ./gsnova_vps_linux_amd64 >gsnova.log 2>&1 &
 echo "gsnova started."
 cd /root/kcptun/
